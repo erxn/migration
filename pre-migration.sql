@@ -10,16 +10,16 @@ COMMENT ON COLUMN public.res_company.account_journal_suspense_account_id IS 'Jou
 -- INSERT SUSPENSE ACC
 INSERT INTO public.account_account(
 	name, code, deprecated, user_type_id, internal_type, internal_group, reconcile, company_id, root_id, create_uid, create_date, create_asset)
-	VALUES ('Bank Suspense Account', '111111', 0, 5, 'other', 'asset', 0, 1, 49049, 1, now()::timestamp, 'no');
+	VALUES ('Bank Suspense Account', '111111', 'f', 5, 'other', 'asset', 'f', 1, 49049, 1, now()::timestamp, 'no');
 INSERT INTO public.account_account(
 	name, code, deprecated, user_type_id, internal_type, internal_group, reconcile, company_id, root_id, create_uid, create_date, create_asset)
-	VALUES ('Bank Suspense Account', '111112', 0, 5, 'other', 'asset', 0, 2, 49049, 1, now()::timestamp, 'no');
+	VALUES ('Bank Suspense Account', '111112', 'f', 5, 'other', 'asset', 'f', 2, 49049, 1, now()::timestamp, 'no');
 INSERT INTO public.account_account(
 	name, code, deprecated, user_type_id, internal_type, internal_group, reconcile, company_id, root_id, create_uid, create_date, create_asset)
-	VALUES ('Bank Suspense Account', '111114', 0, 5, 'other', 'asset', 0, 4, 49049, 1, now()::timestamp, 'no');
+	VALUES ('Bank Suspense Account', '111114', 'f', 5, 'other', 'asset', 'f', 4, 49049, 1, now()::timestamp, 'no');
 INSERT INTO public.account_account(
 	name, code, deprecated, user_type_id, internal_type, internal_group, reconcile, company_id, root_id, create_uid, create_date, create_asset)
-	VALUES ('Bank Suspense Account', '111115', 0, 5, 'other', 'asset', 0, 5, 49049, 1, now()::timestamp, 'no');
+	VALUES ('Bank Suspense Account', '111115', 'f', 5, 'other', 'asset', 'f', 5, 49049, 1, now()::timestamp, 'no');
 
 -- Set Company Suspense Acc
 UPDATE public.res_company t1
